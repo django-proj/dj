@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django
+*.log
+*.pot
+*.pyc
+*.mo
+*.sqlite3
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# 환경설정 및 민감 파일
+.env
+*.env
+
+# 기타
+uv.lock 
+
+db.sqlite3

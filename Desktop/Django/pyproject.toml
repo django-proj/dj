@@ -1,0 +1,21 @@
+[project]
+name = "django_mini_project"
+version = "0.1.0"
+description = "A Django backend project"
+dependencies = [
+    "django",
+    "djangorestframework",
+    "drf-spectacular",
+    "psycopg2-binary",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "django-environ",
+    "black",
+    "isort",
+]
