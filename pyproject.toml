@@ -1,0 +1,19 @@
+[project]
+name = "django_project"
+version = "0.1.0"
+description = "가계부 시스템 프로젝트"
+authors = [{ name = "chamchui" }]
+requires-python = ">=3.10"
+
+[tool.uv.group.default]
+dependencies = [
+  "django>=5.2.0",
+  "psycopg2-binary",
+]
+
+[tool.uv.group.dev]
+dependencies = [
+  "black",
+  "isort",
+  "pytest",
+]
